@@ -23,12 +23,11 @@ body {
 }
 
 @font-face {
-    font-family: Above DEMO;
-    src: url("../ABOVE - PERSONAL USE ONLY.ttf") format('truetype');
+    font-family: Horizon;
+    src: url("../Horizon.otf") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
-
 @keyframes floating {
   0% {
     -webkit-transform: translate(0, 0px) rotateY(-12deg);
@@ -144,7 +143,7 @@ a {
 	padding-right: 20px;
 	padding-left: 30px;
 	font-size: 30px;
-	font-family: Above DEMO; 
+	font-family: Horizon Bold; 
 	color: white; 
 	letter-spacing: 10px;
 	transition: 0.8s ease-in ease-out;
