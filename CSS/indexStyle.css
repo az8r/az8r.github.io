@@ -17,6 +17,14 @@ body {
     font-style: normal;
 }
 
+@font-face {
+    font-family: Above DEMO;
+    src: url("../../az8r/ABOVE - PERSONAL USE ONLY.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
 
 @keyframes floating {
   0% {
