@@ -24,8 +24,8 @@ body {
 }
 
 @font-face {
-    font-family: Above DEMO Regular;
-    src: url("../ABOVE - PERSONAL USE ONLY.ttf") format('truetype');
+    font-family: Horizon;
+    src: url("../Horizon.otf") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
