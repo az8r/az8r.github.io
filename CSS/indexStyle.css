@@ -20,7 +20,7 @@ body {
     font-family: Istok Web Bold;
     src: url("../IstokWeb-Regular.ttf") format('truetype');
     font-weight: bold;
-    font-style: normal;
+    font-style: bold;
 }
 
 @font-face {
