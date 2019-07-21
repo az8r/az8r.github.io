@@ -24,9 +24,9 @@ body {
 }
 
 @font-face {
-    font-family: Above DEMO;
+    font-family: Above DEMO Regular;
     src: url("../ABOVE - PERSONAL USE ONLY.ttf") format('truetype');
-    font-weight: Regular;
+    font-weight: bold;
     font-style: normal;
 }
 
