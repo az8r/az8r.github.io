@@ -9,6 +9,15 @@ body {
 
 }
 
+
+@font-face {
+    font-family: Istok Web;
+    src: url("../../az8r/IstokWeb-Regular.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
 @keyframes floating {
   0% {
     -webkit-transform: translate(0, 0px) rotateY(-12deg);
