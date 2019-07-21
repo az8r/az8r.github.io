@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+ <meta name="robots" content="index, follow">
+<meta name="keywords" content="Rain"/>
+<meta name="description" content="Rain"/>
+<script type="text/javascript">
+	$wrapper.resizable({
+  resize: doResize
+});
+
+function doResize(event, ui) {
+  
+  var scale, origin;
+    
+  scale = Math.min(
+    ui.size.width / elWidth,    
+    ui.size.height / elHeight
+  );
+  
+  $el.css({
+    transform: "translate(-50%, -50%) " + "scale(" + scale + ")"
+  });
+  
+}
+
+var starterData = { 
+  size: {
+    width: $wrapper.width(),
+    height: $wrapper.height()
+  }
+}
+doResize(null, starterData);
+</script>
+
+<style>
+
+	@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+.mySlides {display:none;}
+.mySlides1 {display:none;}
+</style>
+
+<link rel="stylesheet" type="text/css" href="../CSS/HrStyle.css">
+	<title>Rain</title>
+</head>
+<body>
+<div class="scaleable-wrapper" id="scaleable-wrapper">
+<div class="very-specific-design" id="very-specific-design">
+		<img class="logoImage" src="../Images/RainLogoReal.png">
+		<div class="navContent">
+		<h1 id="webHeading"><a id="aHeadingMain" href="index.html"style="color: white; text-decoration: none;">Rain</a></h1>
+		
+			<h1 id="navigationHeading"><a class="aHeading" href="OpIndex.html" style="text-decoration: none;
+	color: white;">Operational Plans</a></h1>
+		
+		
+		<h1 id="navigationHeading1"><a class="aHeading" href="MaIndex.html" style="color: white; text-decoration: none;">Marketing Plan</a></h1>
+	
+	
+		<h1 id="navigationHeading2"><a class="aHeading" href="FiIndex.html" style="color: white; text-decoration: none;">Financial Plan</a></h1>
+	
+		
+		<h1 id="navigationHeading3"><a class="aHeading" href="HrIndex.html" style="color: white; text-decoration: none;">Human Resource Plan</a></h1>
+</div>
+		
+	</div>
+
+		
+
+	
+
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		    var i;
+		    var x = document.getElementsByClassName("mySlides");
+		    for (i = 0; i < x.length; i++) {
+		       x[i].style.display = "none";  
+		    }
+		    myIndex++;
+		    
+		    if (myIndex > x.length) {myIndex = 1}    
+		    x[myIndex-1].style.display = "block";  
+		    setTimeout(carousel, 4000);
+		}
+
+
+		carousel2();
+
+		function carousel2() {
+		    var i;
+		    var x = document.getElementsByClassName("mySlides2");
+		    for (i = 0; i < x.length; i++) {
+		       x[i].style.display = "none";  
+		    }
+		    myIndex++;
+		    if (myIndex > x.length) {myIndex = 1}    
+		    x[myIndex-1].style.display = "block";  
+		    setTimeout(carousel2, 4000);
+		}
+	</script>
+	<br>
+<div style="margin-top: 120px;">
+<h1 id="heading1">Number of Staff</h1>
+<br>
+<ul id="text1">
+<img src="../Images/ASDF.png" style="width: 1000px; height: 400px; display: block;  
+  margin-right: auto;
+  ">
+<br>
+<p>asd</p>
+	<li>asd</li>
+</ul>
+	<br>
+	
+	<br><hr style="margin-left: 250px; margin-right: 350px;"><br>
+	
+<h1 id="heading1">Laws Relating to HR</h1>
+<br>
+	<ul id="text1">
+		<p>Anti-Discrimination</p>
+		<li>The Anti-Discrimination law of 1992 states that the company and its workers are under an obligation of international human rights treaties to take measures to eliminate discrimination including on the basis of age, race, sex, pregnancy, marital status and disability.</li>
+		<br>
+		<p>Industrial Relations Act 2006</p>
+		<li>If you are under the age of 18 you must comply with the Industrial Relations (Child Employment) act of 2006.</li>
+		<br>
+		<p>Long-Service Leave Act 1995</p>
+		<li>This act entitles workers to two months of paid leave to those who have commited 10 unbroken years of service towards the company.</li>
+		<br>
+		<p>Minimum Wage</p>
+		<li>Each employee under law will be paid above $19.49</li>
+		<br>
+		<p>Holiday Leave</p>
+		<li>Workers are entitled to stay home / skip work on days with special occasions such as the queens birthday for instance.</li>
+		<br>
+		<p>Fair Labor Standards Act of 1938</p>
+		<li>This law ensures employer compliance with restrictions related to minimum wages, overtime provisions, child labor, and workplace safety</li>
+		<br>
+		<p>Occupational Safety and Health Act of 1970</p>
+		<li>This act, established by the Occupational Safety and Health Administration, is designed to force employers to provide safe and healthy work environments and to make organizations liable for workers' safety. </li>
+	</ul>
+<br><br><hr style="margin-left: 250px; margin-right: 350px;"><br>
+<h1 id="heading1">Monetary / Non Monetary Rewards</h1>
+	
+	<br>
+	<p id="text1">To keep moral and efficiency high, monetary and non monetary rewards will be provided to staff members. ADD MORE. An effective way to manage monetary and non-monetary rewards into one package is employee of the month. Benefits for getting employee of the month may be</p>
+	<ul id="text1">
+		<li>Extra shares within the company</li>
+		<li>5% bonus of thier original pay for the month</li>
+		<li>Maximum 2 days paid leave for the month</li>
+	</ul>
+	<br><hr style="margin-left: 250px; margin-right: 350px;"><br>
+</div>
+
+
+	<br><br><br>
+	<div class="copyright">
+		<p id="copyright-text">Copyright 2019 - Rain Pty Ltd</p>
+		<p id="contact-text">Contact at: raincompany@gmail.com</p>
+		
+	</div>
+
+	</div>
+</div>
+</body>
+</html>

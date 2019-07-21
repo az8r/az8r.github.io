@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+ <meta name="robots" content="index, follow">
+<meta name="keywords" content="Rain"/>
+<meta name="description" content="Rain"/>
+<script type="text/javascript">
+	$wrapper.resizable({
+  resize: doResize
+});
+
+function doResize(event, ui) {
+  
+  var scale, origin;
+    
+  scale = Math.min(
+    ui.size.width / elWidth,    
+    ui.size.height / elHeight
+  );
+  
+  $el.css({
+    transform: "translate(-50%, -50%) " + "scale(" + scale + ")"
+  });
+  
+}
+
+var starterData = { 
+  size: {
+    width: $wrapper.width(),
+    height: $wrapper.height()
+  }
+}
+doResize(null, starterData);
+</script>
+
+<style>
+
+	@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+.mySlides {display:none;}
+.mySlides1 {display:none;}
+</style>
+
+<link rel="stylesheet" type="text/css" href="../CSS/OpStyle.css">
+	<title>Rain</title>
+</head>
+<body>
+<div class="scaleable-wrapper" id="scaleable-wrapper">
+
+	<div class="very-specific-design" id="very-specific-design">
+		<img class="logoImage" src="../Images/RainLogoReal.png">
+		<div class="navContent">
+		<h1 id="webHeading"><a id="aHeadingMain" href="index.html"style="color: white; text-decoration: none;">Rain</a></h1>
+		
+			<h1 id="navigationHeading"><a class="aHeading" href="OpIndex.html" style="text-decoration: none;
+	color: white;">Operational Plans</a></h1>
+		
+		
+		<h1 id="navigationHeading1"><a class="aHeading" href="MaIndex.html" style="color: white; text-decoration: none;">Marketing Plan</a></h1>
+	
+	
+		<h1 id="navigationHeading2"><a class="aHeading" href="FiIndex.html" style="color: white; text-decoration: none;">Financial Plan</a></h1>
+	
+		
+		<h1 id="navigationHeading3"><a class="aHeading" href="HrIndex.html" style="color: white; text-decoration: none;">Human Resource Plan</a></h1>
+</div>
+		
+	</div>
+
+		
+
+	
+
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		    var i;
+		    var x = document.getElementsByClassName("mySlides");
+		    for (i = 0; i < x.length; i++) {
+		       x[i].style.display = "none";  
+		    }
+		    myIndex++;
+		    
+		    if (myIndex > x.length) {myIndex = 1}    
+		    x[myIndex-1].style.display = "block";  
+		    setTimeout(carousel, 4000);
+		}
+
+
+		carousel2();
+
+		function carousel2() {
+		    var i;
+		    var x = document.getElementsByClassName("mySlides2");
+		    for (i = 0; i < x.length; i++) {
+		       x[i].style.display = "none";  
+		    }
+		    myIndex++;
+		    if (myIndex > x.length) {myIndex = 1}    
+		    x[myIndex-1].style.display = "block";  
+		    setTimeout(carousel2, 4000);
+		}
+	</script>
+	<br>
+<div style="margin-top: 120px;">
+<h1 id="heading1">Inputs</h1>
+	<div class="inputContents">
+		<button class="collapsible"></p><span class="arrow"></span></button>
+	<div class="collapsibleContent">
+	<ul id="text1">
+		<h1 id="text2">Transforming Inputs</h1>
+			<br> 
+				<p>Human Resources</p>
+			<br>
+	  				<li>Programmers / Owner</li>
+	  		<br>
+	  				<li>Machinery to make the box</li>
+	  		<br>
+	  			<p>Facilities</p>
+	  		<br>
+	  				<li>Manufacturing tools and machinery for developing the Rain modem</li>
+	  				<br>
+	  				<li>Manufacturing building</li>
+	  			
+	  				<br>
+	  		<h1 id="text2">Transformed Inputs</h1>
+	  		<br>
+	  		<p>Materials</p>
+	  		<br>
+	  			<li>Aluminium Metal for box exteriors</li>
+	  		<br>
+	  			<li>Custom made components for the internal electronics of the router</li>
+	  		<br>
+	  			<li>Memory / Cache chip to stop server from resetting after each use</li>
+	  		<br>
+	  		<p>Informational</p>
+	  		<br>
+	  		<li>Instructions to make rain box, for the employee's</li>
+	  		<br>
+	  		<li>Instructions for consumers of how to access the rain private server</li>
+	  		<br>
+	  		<p>Customers</p>
+	  		<br>
+	  		<li>The input from the customers of the projects</li>
+				<br>
+	</ul>
+	<br>
+</div>
+<Br>
+	<br><hr style="margin-left: 250px; margin-right: 350px;"><br>
+	<h1 id="heading1">Processes and Outputs</h1>
+	<div class="inputContents">
+		<br>
+		<button class="collapsible"></p><span class="arrow"></span></button>
+	<div class="collapsibleContent">
+		
+	<ul id="text1">
+		<h1 id="text2">Processes</h1>
+			<br>
+				<p>Product Manufacturing</p>
+			<br>
+	  				<li>Instructional manual for development of rain modem / box. To assemble the rain modem you will have to attach all components within the aliminium box, such as the motherboard, cache chip, memory, and external connection ports</li>
+	  		<br>
+	  			<p>Staff Management</p>
+	  		<br>
+	  				<li>Training the online staff for how to deal with customer support</li>
+	  				<br>
+	  				<li>Training the manufacturing staff to deal with manufacturing procedures, resource collection and allocation</li>
+	  				<br>
+	  				<li>Training the staff to deal with product distribution</li>
+	  				<br>
+	  			<p>Customer Management</p>
+	  			<br>
+	  			<li>Providing Rain installation if are is within reach of the manufacturing / distribution center</li>
+	  			<br>
+	  			<li>Providing online realtime support by real people</li>
+	  		<h1 id="text2">Outputs</h1>
+	  		<br>
+	  		<p>The outputs of Rain will consist of a tangible good and tangible service. From the sourced materials that we have ordered, we will be able to produce the modem used to connect to the server, as a tangible good. Our tangible services will consist of the actual server used to host the online forum and the customer support mechanism</p>
+	  	
+	</ul>
+	<br>
+</div>
+<br>
+	<br><hr style="margin-left: 250px; margin-right: 350px;"><br>
+
+
+<h1 id="heading1">Legal Requirements</h1>
+<br>
+<div class="inputContents">
+	<button class="collapsible"></p><span class="arrow"></span></button>
+	<div class="collapsibleContent">
+	<br>
+		<ul id="text1">
+			 <p>Rain pty ltd has various legal requirements that concern the business's  and the employee's wellbeing when producing and conducting business, such as
+	</p>
+		<br>
+			<li>Occupational Safety and Health</li>
+			<br>
+				<ul><li>This law / legal requirement places a general duty of care over my employee's so that, I the employer provide information, instruction, training to, and supervision as necessary to enable them to perform their work in such a manner that they are not exposed to hazards.</li></ul>
+			<br>
+			<li>First aid facilities / First aid in the workplace</li>
+			<br>
+				<ul><li>Adopting this legal requirement helps reduce the risk of further employee injury. This act requires the business to provide immediate and effective first aid to workers or others who have been injured or become ill at the workplace may reduce the severity of the injury or illness and promote recovery. In some cases it could mean the difference between life and death. This can be achieved by having various accessible first aid kits in the walkway and all facilities / rooms of the complex. </li></ul>
+			<br>
+			<li>Regulation and registration of business name</li>
+			<br>
+				<ul><li>Registering the business's name will stop anyone from creating a similar company and can help avoid the risk of slanderous comments if another business will the same name and intention comes under legality issues. It is a legal obligation of most jurisdictions and ensures that a business is operating under the lawful obligations of its control.</li></ul>
+			<br>
+			<li>Workplace health and safety</li>
+			<br>
+				<ul><li>The WHS Act places the primary health and safety duty on a person conducting a business or undertaking (PCBU). The PCBU must ensure, so far as is reasonably practicable, the health and safety of workers at the workplace. Duties are also placed on officers of a PCBU, workers and other persons at a workplace.</li></ul>
+			<br>
+			<li>Drug Testing</li>
+			<br>
+				<ul><li>This legality requirement is set in place as to stop co workers in dangering themselves within the workplace if they are under the influence of drugs or harmful substances</li></ul>
+		</ul>
+</div>
+</div>
+
+<br>
+<br><br><hr style="margin-left: 250px; margin-right: 350px;"><br>
+<h1 id="heading1">Storage</h1>
+<p id="text1">Within the manufacturing complex, there is a designated section for the storage of the materials which are used to make the product and the units / products produced which will be then go out for distribution. The connection of the storage space to the manufacturing and distribution area is specifically designed to connect easily to the manufacturing unit and distribution unit of the building</p>
+	<br><hr style="margin-left: 250px; margin-right: 350px;"><br>
+	
+<h1 id="heading1">Business Layout</h1>
+
+	<div class="inputContents">
+
+		<ul id="text1">
+			<li>Material Storage / Server Storage = BLACK</li>
+			<li>Manufacturing Area = PURPLE</li>
+			<li>Staff Room = LIGHT GREEN</li>
+			<li>Distribution / Management quality check = ORANGE</li>
+			<li>Walkway / Industrial zone</li>
+		</ul>
+		<Br>
+		<img src="../Images/BusinessPlanLayout.png" style="width: 250px; height: 250px; padding-left: 300px;">
+	
+	</div>
+	<br><hr style="margin-left: 250px; margin-right: 350px;"><br>
+	<h1 id="heading1">Technology</h1>
+	<p id="text1">Rain is implementing self autonomous machinery for the manufacturing process and production line. This is done to increase productivity, output and sales however it may come at a cost. The packaging, movement, distribution and technical support of the finished product will all be under the control / jurisdiction of the employee's.
+</p>
+<br>
+<p id="text1">Rain pty ltd has also implemented technologies to improve over all growth of the business. Such as financial technologies to improve customer transactions, as achieved through EFTPOS. We have also implemented a technological system to improve our database for keeping records of customer purchases, information to make current and future transactions easier.
+</p>
+	<br><hr style="margin-left: 250px; margin-right: 350px;"><br>
+	<h1 id="heading1">Quality Management</h1>
+	<div class="inputContents">
+	<br>
+	<ul id="text1">
+	<h1 id="text2">Quality Control</h1>
+	<br>
+	<li>Before the finalisation of packing / distribution of the product, each individual modem box goes through a processing line where all products are inspected and checked if they are operational and ready for use.
+</li>
+<br>
+<h1 id="text2">Quality Assurance</h1>
+<br>
+<li>Before manufacturing the Rain Modem, multiple steps to different sections of the business are put in place to ensure the quality of the product is up to business standards. This will include:</li>
+<br>
+<ul><li style="list-style-type: line;">Training the staff to assemble product in a certain way.</li><li>Teaching the machinery to detect if any of the products are faulty</li><li>Providing instructions to carefully fix the damaged product to minimise our expense in developing a new product</li></ul>
+<br>
+<h1 id="text2">Total Quality Management</h1>
+<br>
+<li>Rain PTY LTD, will also implement a large range of continuous improvements to our manufacturing process as we grow as a business, such as lowering the amount of greenhouse gas emissions, providing the most precise / autonomous manufacturing line, improving the company’s overall aims and goals and improving the time taken to deliver product upon order.</li>
+<br>
+</ul>
+</div>
+	<br><hr style="margin-left: 250px; margin-right: 350px;"><br>
+</div>
+
+	<br><br><br>
+	<div class="copyright">
+		<p id="copyright-text">Copyright 2019 - Rain Pty Ltd</p>
+		<p id="contact-text">Contact at: raincompany@gmail.com</p>
+		
+	</div>
+
+	</div>
+</div>
+
+<script>
+	var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+
+  });
+}
+	</script>
+</body>
+</html>
