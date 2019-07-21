@@ -24,7 +24,7 @@ body {
 }
 
 @font-face {
-    font-family: Above;
+    font-family: "Above DEMO";
     src: url("../ABOVE - PERSONAL USE ONLY.ttf") format('truetype');
     font-weight: bold;
     font-style: normal;
@@ -147,7 +147,7 @@ a {
 	padding-right: 20px;
 	padding-left: 30px;
 	font-size: 30px;
-	font-family: Above; 
+	font-family: "Above DEMO"; 
 	color: white; 
 	letter-spacing: 10px;
 	transition: 0.8s ease-in ease-out;
